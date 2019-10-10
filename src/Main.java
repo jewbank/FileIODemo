@@ -29,6 +29,7 @@ public class Main {
 			String line1 = fileIn.nextLine();
 			String[] words = line1.split(" ");
 			System.out.println(Arrays.toString(words));
+			fileIn.close();
 			
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
